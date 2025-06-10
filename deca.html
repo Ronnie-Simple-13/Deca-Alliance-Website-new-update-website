@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deca Alliance Secondary School - Education is a  necessity</title>
+    <link rel="stylesheet" href="deca.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="deca logo.png" alt="deca logo">
+                <div class="logo-text">
+                    <h1>Deca Alliance Secondary School</h1>
+                    <p1><q>Education is a necessity</q></p1>
+                </div>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portal" id="portalLink">Student Portal</a></li>
+                    <li><a href="#apply">Apply Online</a></li>
+                    <li><a href="#announcements">Announcements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Quality Education for a Brighter Future</h2>
+            <p1>At Deca Alliance Secondary School, we are committed to providing excellent education that prepares
+                 students for success in academics and life.</p1> <br> <br>
+
+            <a href="#apply" class="btn">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Our School</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Deca Alliance Secondary School was founded in 2017 with the mission to provide quality education to all students regardless of their background. Our motto "Education is a necessity" reflects our belief that education is the foundation for personal and societal development.</p>
+                    <p>With state-of-the-art facilities, experienced teachers, and a comprehensive curriculum, we strive to nurture well-rounded individuals who are prepared to face the challenges of the modern world.</p>
+                    <p>Our school offers both arts and science programs, day and boarding secondary School with various extracurricular activities to help students discover and develop their talents.</p>
+                </div>
+                <div class="about-image">
+                    <img src="front view.jfif"School Building">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Deca Alliance</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Qualified Teachers</h3>
+                    <p>Our teachers are highly qualified and experienced professionals dedicated to student success.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Modern Laboratories</h3>
+                    <p>Well-equipped science and computer labs for practical learning experiences.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Comprehensive Library</h3>
+                    <p>Extensive collection of books and digital resources to support learning.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3>Sports Facilities</h3>
+                    <p>Excellent sports facilities including football field, basketball court, and more.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <h3>Transportation</h3>
+                    <p>Safe and reliable transportation services for students.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Guidance Counseling</h3>
+                    <p>Professional counseling services to support students' emotional and academic needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Portal Section -->
+    <section class="portal" id="portal">
+        <div class="container">
+            <h2 class="section-title">Student Portal</h2>
+            <div class="portal-container">
+                <form class="portal-form" id="loginForm">
+                    <h3>Login to Your Account</h3>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter your username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit " class="portal-btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Section -->
+    <section class="application" id="apply">
+        <div class="container">
+            <h2 class="section-title">Online Application</h2>
+            <form class="application-form" id="applicationForm">
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" required>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" id="dob" required>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select id="gender" class="form-group input" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <textarea id="address" rows="3" class="form-group input" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="previousSchool">Previous School</label>
+                            <input type="text" id="previousSchool" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="classApplying">Class Applying For</label>
+                            <select id="classApplying" class="form-group input" required>
+                                <option value="">Select Class</option>
+                                <option value="jss1">Form 1</option>
+                                <option value="jss2">Form 2</option>
+                                <option value="jss3">Form 3</option>
+                                <option value="ss1">Form 4</option>
+                                <option value="ss2">Form 5</option>
+                                <option value="ss3">Form 6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-col">
+                        <div class="form-group">
+                            <label for="program">Program</label>
+                            <select id="program" class="form-group input" required>
+                                <option value="">Select Program</option>
+                                <option value="arts">Arts</option>
+                                <option value="science">Science</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn" style="width: 100%;">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Announcements Section -->
+    <section class="announcements" id="announcements">
+        <div class="container">
+            <h2 class="section-title">School Announcements</h2>
+            <div class="announcement-list">
+                <div class="announcement-item">
+                    <h3>Resumption Date for New Term</h3>
+                    <div class="announcement-meta">
+                        <span><i class="far fa-calendar-alt"></i> June 5, 2025</span>
+                        <span style="margin-left: 15px;"><i class="fas fa-user"></i> Director</span>
+                    </div>
+                    <p>All students are expected to resume for the new academic term on Monday, June 5, 2025. School activities will commence by 7:30am prompt.</p>
+                </div>
+                <div class="announcement-item">
+                    <h3>Inter-house Sports Competition</h3>
+                    <div class="announcement-meta">
+                        <span><i class="far fa-calendar-alt"></i> August 15, 2025</span>
+                        <span style="margin-left: 15px;"><i class="fas fa-user"></i> Sports Department</span>
+                    </div>
+                    <p>The annual inter-house sports competition will hold on August 15, 2025 at the school sports field. All students are expected to participate actively in their respective houses.</p>
+                </div>
+                <div class="announcement-item">
+                    <h3>PTA Meeting</h3>
+                    <div class="announcement-meta">
+                        <span><i class="far fa-calendar-alt"></i> September 10, 2025</span>
+                        <span style="margin-left: 15px;"><i class="fas fa-user"></i>PTA Chairman</span>
+                    </div>
+                    <p>There will be a PTA meeting on September 10, 2025 by 10:00am in the school staff room. All parents are encouraged to attend as important matters concerning the school will be discussed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>School Address</h3>
+                    <p><i class="fas fa-map-marker-alt"></i><b>Kyebongotoko village, mateete sub-county, Ssembabule District</b></p>
+                    <p><i class="fas fa-phone"></i><u>Contact Us: </u>+256742669902 or +256702176707</p>
+                    <p><i class="fas fa-envelope"></i> <u>Email Us:</u> ronniesimple13@gmail.com</p>
+                    <p><i class="fas fa-clock"></i><u>Working days:</u> Monday - Friday: 8:00am - 4:00pm</p>
+                    <p><i class="fas fa-clock"></i><u>Weekend:</u> Saturday & Sunday: 9:00am - 3:00pm</p>
+                </div>
+                <div class="contact-info">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="portal-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About Us</h3>
+                    <p>Deca Alliance Secondary School is committed to providing quality education that prepares students for academic excellence and responsible people in their own</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portal">Student Portal</a></li>
+                        <li><a href="#apply">Admissions</a></li>
+                        <li><a href="#announcements">Announcements</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Academics</h3>
+                    <ul>
+                        <li><a href="#">Curriculum</a></li>
+                        <li><a href="#">Departments</a></li>
+                        <li><a href="#">School Calendar</a></li>
+                        <li><a href="#">Examination</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Alumni</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to get updates on school news and events.</p>
+                    <form id="newsletterForm">
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <button type="submit" class="portal-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Deca Alliance Secondary School. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Student Portal Modal -->
+    <div class="modal" id="portalModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Student Dashboard</h3>
+                <button class="close-btn" id="closePortalModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="dashboard-nav">
+                    <div class="container">
+                        <ul>
+                            <li><a href="#" class="active" data-tab="results">Results</a></li>
+                            <li><a href="#" data-tab="dues">School Dues</a></li>
+                            <li><a href="#" data-tab="messages">Messages</a></li>
+                            <li><a href="#" data-tab="profile">Profile</a></li>
+                            <li><a href="#" id="logoutBtn">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dashboard-content">
+                    <div class="container">
+                        <!-- Results Tab -->
+                        <div class="dashboard-card" id="resultsTab">
+                            <h3>Academic Results</h3>
+                            <div class="form-group">
+                                <label for="resultTerm">Select Term</label>
+                                <select id="resultTerm">
+                                    <option value="first">First Term</option>
+                                    <option value="second">Second Term</option>
+                                    <option value="third">Third Term</option>
+                                </select>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="result-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Subject</th>
+                                            <th>Test Score</th>
+                                            <th>Exam Score</th>
+                                            <th>Total</th>
+                                            <th>Grade</th>
+                                            <th>Remark</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Mathematics</td>
+                                            <td>28</td>
+                                            <td>62</td>
+                                            <td>90</td>
+                                            <td>A</td>
+                                            <td>Excellent</td>
+                                        </tr>
+                                        <tr>
+                                            <td>English Language</td>
+                                            <td>25</td>
+                                            <td>55</td>
+                                            <td>80</td>
+                                            <td>B</td>
+                                            <td>Very Good</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Physics</td>
+                                            <td>26</td>
+                                            <td>59</td>
+                                            <td>85</td>
+                                            <td>A</td>
+                                            <td>Excellent</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Chemistry</td>
+                                            <td>24</td>
+                                            <td>56</td>
+                                            <td>80</td>
+                                            <td>B</td>
+                                            <td>Very Good</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Biology</td>
+                                            <td>23</td>
+                                            <td>52</td>
+                                            <td>75</td>
+                                            <td>B</td>
+                                            <td>Good</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- Dues Tab -->
+                        <div class="dashboard-card" id="duesTab" style="display: none;">
+                            <h3>School Dues</h3>
+                            <div class="table-responsive">
+                                <table class="result-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Description</th>
+                                            <th>Amount</th>
+                                            <th>Due Date</th>
+                                            <th>Status</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Tuition Fee - First Term</td>
+                                            <td>₦45,000</td>
+                                            <td>Sep 15, 2023</td>
+                                            <td class="status-paid">Paid</td>
+                                            <td><button class="btn" disabled>Receipt</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Development Levy</td>
+                                            <td>₦10,000</td>
+                                            <td>Oct 1, 2023</td>
+                                            <td class="status-paid">Paid</td>
+                                            <td><button class="btn" disabled>Receipt</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>PTA Levy</td>
+                                            <td>₦5,000</td>
+                                            <td>Oct 1, 2023</td>
+                                            <td class="status-pending">Pending</td>
+                                            <td><button class="btn">Pay Now</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Excursion Fee</td>
+                                            <td>₦15,000</td>
+                                            <td>Nov 15, 2023</td>
+                                            <td class="status-pending">Pending</td>
+                                            <td><button class="btn">Pay Now</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- Messages Tab -->
+                        <div class="dashboard-card" id="messagesTab" style="display: none;">
+                            <h3>Messages from Administration</h3>
+                            <div class="announcement-list">
+                                <div class="announcement-item">
+                                    <h3>Upcoming Parent-Teacher Meeting</h3>
+                                    <div class="announcement-meta">
+                                        <span><i class="far fa-calendar-alt"></i> November 20, 2023</span>
+                                    </div>
+                                    <p>Dear Students, Please inform your parents/guardians about the upcoming PTA meeting scheduled for November 20, 2023 at 10:00am in the school hall. Attendance is compulsory for all parents
